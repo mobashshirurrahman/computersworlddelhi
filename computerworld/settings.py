@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "pages.apps.PagesConfig",
+    "products.apps.ProductsConfig",
+    'ckeditor',
+
 ]
 
 MIDDLEWARE = [
@@ -133,3 +136,12 @@ STATIC_FILES_DIRS = [
 # media setting
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL ='/media/'
+
+# CKEDITOR_UPLOAD_PATH = "uploads/"
+# CKEDITOR_CONFIGS = {
+#     'default': {
+#         'toolbar': 'full',
+#         'height': 300,
+#         'width': '100%',
+#     },
+# }
